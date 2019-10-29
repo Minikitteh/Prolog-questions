@@ -1,0 +1,9 @@
+parent(miguel,daniela).
+parent(jessy,daniela).
+parent(miguel,ivan).
+parent(jessy,ivan).
+male(ivan).
+female(daniela).
+
+
+sister(X):-parent(Y,X), parent(Y,Z), female(X).

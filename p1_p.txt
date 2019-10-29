@@ -1,0 +1,7 @@
+parent(ivan,ace).
+parent(alice,ace).
+male(ivan).
+female(alice).
+female(naz).
+
+mother(X,Y):-parent(X,Y), female(X).
